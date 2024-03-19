@@ -47,10 +47,8 @@ nav ul li a:hover {
     background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
-    width: 100%; /* Footer von ganz links bis ganz rechts */
+    width: 100%; 
 }
-
-/* login.css */
 
 body {
     font-family: Arial, sans-serif;
@@ -114,7 +112,6 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Postfach.css */
 
 .message {
     background-color: #f8f9fa;
@@ -124,4 +121,22 @@ input[type="submit"]:hover {
     margin-bottom: 10px;
 }
 
-/* end of styles.css */
+.body-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    align-items: center;
+}
+
+.body-container > div {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.body-container a {
+    color: black;
+    text-decoration: none;
+}
